@@ -94,6 +94,7 @@ header {
 
 .header-container {
     max-width: 860px;
+    width: calc(100% - 48px);
     margin: 0 auto;
     padding: 12px 24px;
     display: flex;
@@ -105,6 +106,24 @@ header {
     box-shadow: var(--shadow-playful);
     pointer-events: auto; /* Enable clicks on the header itself */
     backdrop-filter: blur(10px);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: transform var(--transition);
+}
+
+.logo-link:hover {
+    transform: translateY(-1px);
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    border-radius: 8px; /* Smooth corners for the placeholder */
 }
 
 .logo {
@@ -584,5 +603,11 @@ footer {
     
     .project-card.featured {
         grid-column: span 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-terminal {
+        display: none;
     }
 }
