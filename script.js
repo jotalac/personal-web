@@ -4,6 +4,9 @@
  */
 const i18n = {
     en: {
+        navAbout: "About",
+        navStack: "Stack",
+        navProjects: "Projects",
         heroGreeting: "Welcome to my page 👋",
         heroTitle: 'Hi, my name is <span class="highlight">Josef Talac</span>.',
         heroSubtitle: "I like to code and build things.",
@@ -17,6 +20,9 @@ const i18n = {
         viewGithub: "source"
     },
     cz: {
+        navAbout: "O mně",
+        navStack: "Technologie",
+        navProjects: "Projekty",
         heroGreeting: "Vítejte na mé stránce 👋",
         heroTitle: 'Ahoj, jmenuji se <span class="highlight">Josef Talač</span>.',
         heroSubtitle: "Rád programuji a tvořím věci.",
