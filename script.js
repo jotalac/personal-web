@@ -61,21 +61,21 @@ const projects = [
     },
     {
         id: "proj3",
+        titleEn: "RAG-App",
+        titleCz: "RAG-App",
+        descEn: "Application with TUI (terminal user interface) for local RAG pipeline with embedded resources.",
+        descCz: "Aplikace s TUI (terminálové uživatelské rozhraní) pro lokální RAG nad vlastními dokumenty.",
+        link: "https://github.com/jotalac/rag-app",
+        tags: ["Python", "RAG", "Embeddings", "ChromaDB", "ollama"]
+    },
+    {
+        id: "proj4",
         titleEn: "Jump King (in Java)",
         titleCz: "Jump King (v Javě)",
         descEn: "Recreated Jump King game in Java using JavaFX. Made for school project",
         descCz: "Přetvořená hra Jump King v Javě pomocí JavaFX. Vytvořeno jako školní projekt",
         link: "https://github.com/jotalac/jump_king_java",
         tags: ["Java", "JavaFX"]
-    },
-    {
-        id: "proj4",
-        titleEn: "F1 Reaction Test App",
-        titleCz: "F1 Reaction Test App",
-        descEn: "F1 themed Android app for testing reaction time.",
-        descCz: "Android aplikace s tématem F1 pro testování reakčního času.",
-        link: "https://github.com/jotalac/F1StartApp",
-        tags: ["Kotlin", "Android"]
     },
     {
         id: "proj5",
