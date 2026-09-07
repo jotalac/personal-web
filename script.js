@@ -39,6 +39,16 @@ const i18n = {
 
 const projects = [
     {
+        id: "proj0",
+        titleEn: "Git-writer",
+        titleCz: "Git-writer",
+        descEn: "Git-backed markdown note-taking app. Cross-platfrom application for note-taking with easy and private git sync",
+        descCz: "Aplikace na vytváření poznámek v Markdownu se synchronizací přes Git remote repozitáře.",
+        link: "https://github.com/jotalac/git-writer",
+        tags: ["Kotlin", "Kotlin Multiplatform", "Compose Multiplatform", "Android"],
+        featured: true,
+    },
+    {
         id: "proj1",
         titleEn: "Market Viewer",
         titleCz: "Market Viewer",
@@ -56,7 +66,7 @@ const projects = [
         descCz: "Macropad klávesnice s webovou aplikací pro konfiguraci kláves.",
         link: "https://github.com/jotalac/quickey_app",
         tags: ["NodeJS", "VueJS", "MicroPython", "Web", "PWA", "3D printing"],
-        featured: true,
+        featured: false,
         website: "https://quickey.jotalac.dev/"
     },
     {
@@ -76,15 +86,6 @@ const projects = [
         descCz: "Přetvořená hra Jump King v Javě pomocí JavaFX. Vytvořeno jako školní projekt",
         link: "https://github.com/jotalac/jump_king_java",
         tags: ["Java", "JavaFX"]
-    },
-    {
-        id: "proj5",
-        titleEn: "C++ snake game",
-        titleCz: "Hra hadik v C++",
-        descEn: "Improved Snake game in terminal written in C++. Created as school project",
-        descCz: "Vylepšená hra had v terminalu napsaná v C++. Vytvořeno jako školní projekt",
-        link: "https://github.com/jotalac/snake_game",
-        tags: ["C++", "terminal", "ASCII"]
     },
     {
         id: "proj6",
